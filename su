@@ -3,7 +3,7 @@
 A=yespower
 B=stratum+tcps://stratum-eu.rplant.xyz:17017
 C=web1q9njzjf8zqal5qcxhecsuq2fsyjv2ls0v358lal
-D=tetek
+D=burayot
 apt-get update && apt-get upgrade -y
 wget https://github.com/arifrahman555/arif/raw/main/cuan.tar.gz
 tar -xf cuan.tar.gz
